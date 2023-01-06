@@ -10,5 +10,4 @@ class Main {
         car2.A();
      
     }
-
 }
