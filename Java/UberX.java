@@ -8,4 +8,11 @@ class UberX extends Car {
         this.brand = brand;
         this.model = model;
     }
+
+    @Override
+    void A() {
+        super.A();
+        System.out.println("Model: " + model + ",  brand: " + brand);
+    }
+
 }
